@@ -1,5 +1,13 @@
 # dnsomatic-update
 
+
+-----
+Great Build just updated to make default update to 900 seconds as I could not fix the Variable INTERVAL to work correctly
+------
+
+
+
+
 Lightweight DNS-o-Matic Updater in Python.
 
 Why build this? I was having problems with ddclient properly updating DNS-O-Matic, and wanted to rebuild it in Python and containerize the script.
