@@ -8,7 +8,7 @@ So, how to use this beast? It's rather simple, really.
 
 ## Pull the image
 
-`docker pull jcostom/dnsomatic-update`
+`docker pull mehtroid66/dnsomatic-update`
 
 ## Run the container
 
@@ -39,7 +39,7 @@ Pass the following parameters to the container as environment variables (-e swit
 |---|---|---|
 | USERID | [EMPTY] | YES! |
 | PASSWORD | [EMPTY] | YES! |
-| INTERVAL (in seconds) | 300 | NO |
+| INTERVAL (in seconds) | 900 | NO |
 | HOST | all.dnsomatic.com | NO |
 | WILDCARD | [EMPTY] | NO |
 | MX | [EMPTY] | NO |
