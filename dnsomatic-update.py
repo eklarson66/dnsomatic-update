@@ -11,7 +11,7 @@ from time import strftime, sleep
 # mandatory vars
 USERID = os.getenv('USERID')
 PASSWORD = os.getenv('PASSWORD')
-INTERVAL = os.getenv('INTERVAL', 900)
+INTERVAL = int(os.getenv('INTERVAL', 900))
 HOST = os.getenv('HOST', 'all.dnsomatic.com')
 WILDCARD = os.getenv('WILDCARD', 'NOCHG')
 MX = os.getenv('MX', 'NOCHG')
